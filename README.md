@@ -1,8 +1,10 @@
-# 
+#
+
+[![build status](https://secure.travis-ci.org/serby/###.png)](http://travis-ci.org/serby/###)
 
 ## Installation
 
-      npm install 
+      npm install ###
 
 ## Usage
 
