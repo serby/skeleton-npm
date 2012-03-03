@@ -3,17 +3,21 @@
 	"name": ".....",
 	"description": "",
 	"version": "0.0.1",
+	"tags": [],
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:serby/...."
 	},
-	"main": "index.js",
+	"main": "",
 	"scripts": {
 		"test": "mocha -r should -R List "
 	},
 	"engines": {
 		"node": ">0.4.0"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"mocha": "*",
+		"should": "*"
+	},
 	"devDependencies": {}
 }
