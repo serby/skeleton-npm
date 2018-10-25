@@ -19,6 +19,10 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:serby/{NAME}"
+  },
   "scripts": {
     "test": "npm-run-all qa:*",
     "lint": "npm-run-all qa:lint:*",
