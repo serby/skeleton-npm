@@ -21,3 +21,13 @@
 ## License
 
 Licensed under the [ISC License](https://opensource.org/licenses/ISC)
+
+Created with https://github.com/serby/skeleton-npm
+
+## Skeleton NPM - Instructions
+
+Usage:
+
+```
+git clone git@github.com:serby/skeleton-npm.git sexy-new-module && cd sexy-new-module && sh go.sh
+```
