@@ -7,6 +7,9 @@
 ## Installation
 
       npm install {NAME}
+
+      # or
+
       yarn add {NAME}
 
 ## Usage
@@ -17,4 +20,4 @@
 
 ## License
 
-Licensed under the [New BSD License](http://opensource.org/licenses/bsd-license.php)
+Licensed under the [ISC License](https://opensource.org/licenses/ISC)
