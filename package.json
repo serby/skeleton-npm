@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "description": "",
+  "version": "0.0.0",
+  "author": "Paul Serby <paul@serby.net>",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Paul Serby",
+      "email": "paul@serby.net"
+    }
+  ],
+  "keywords": [
+    "validation"
+  ],
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm-run-all qa:*",
+    "lint": "npm-run-all qa:lint:*",
+    "qa:lint:js": "eslint --cache --ext '.js,.jsx' -f unix .",
+    "qa:inspect": "jsinspect .",
+    "qa:test": "jest ."
+  },
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "npm-run-all": "^4.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "jsinspect": "^0.12.7",
+    "prettier": "^1.14.3"
+  }
+}
