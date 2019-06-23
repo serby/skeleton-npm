@@ -2,7 +2,7 @@
 
 {DESCRIPTION}
 
-[![build status](https://secure.travis-ci.org/serby/{NAME}.png)](http://travis-ci.org/serby/{NAME})
+[![build status](https://secure.travis-ci.org/serby/{NAME}.png)](http://travis-ci.org/serby/{NAME}) [![Greenkeeper badge](https://badges.greenkeeper.io/serby/skeleton-npm.svg)](https://greenkeeper.io/)
 
 ## Installation
 
